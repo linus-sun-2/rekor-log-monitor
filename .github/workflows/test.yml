@@ -1,0 +1,16 @@
+name: Identity Monitor
+
+on:
+  workflow_dispatch:
+
+permissions: read-all
+
+jobs:
+  run_identity_monitor:
+    permissions:
+      contents: read
+      issues: write
+      id-token: write
+    uses: linus-sun/rekor-monitor/.github/workflows/reusable_monitoring.yml@linussun/fix-config-required
+    with:
+      file_issue: false
