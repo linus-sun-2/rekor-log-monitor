@@ -11,6 +11,6 @@ jobs:
       contents: read
       issues: write
       id-token: write
-    uses: linus-sun/rekor-monitor/.github/workflows/reusable_monitoring.yml@linussun/refactor-verify-log
+    uses: linus-sun/rekor-monitor/.github/workflows/reusable_monitoring.yml@linussun/change-order
     with:
       file_issue: false
