@@ -14,3 +14,4 @@ jobs:
     uses: linus-sun/rekor-monitor/.github/workflows/reusable_monitoring.yml@linussun/change-order
     with:
       file_issue: false
+      once: true
